@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <!-- <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons> -->
+    <ion-title>
+     <b>Notas</b>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <ion-card>
+      <ion-card-header>
+        <ion-title> Financeiro </ion-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-button (click)='showPageMenu()'> Menu Principal </ion-button>
+        <p></p>
+        <ion-button (click)='showPageDadosPessoais()'> Dados Pessoais </ion-button>
+        <p></p>
+        <ion-button (click)='showPageFinanceiro()'> Financeiro </ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+</ion-content>
